@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .container{
+            /* border: 2px solid red; */
+         }
+        .container input{
+            /* border-color: blue; */
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Travel Reservation Form</h1>
+    <h3>* Denotes mandotary</h3>
+    <label>Full Name*:</label><br>
+    <input type="text" name="full name" placeholder="first name last name"> <br>
+    <label>Email address*:</label><br>
+    <input type="text" name="enter email" placeholder="enter email"><br>
+    <label>Select Tour Package*:</label><br>
+    <select name="package">
+         <option value="mathura">janam bhumi</option>
+        <option value="vrindavan">prem mandir</option>
+        <option value="vrindavan">isckon temple</option>
+    </select><br>
+    <label>Arrival date*:</label><br>
+    <input type="date" name="day month year" id="date"><br>
+    <label>Number of persons*:</label><br>
+    <input type="text"><br>
+    <label>What would you want to avail?*</label><br>
+    Boarding<input type="checkbox" name="facilities"><br>
+    fooding <input type="checkbox" name="facilities" id=""><br>
+    Sight seeing <input type="checkbox" name="facilities"><br>
+<label>Discount Coupon Code:</label><br>
+<input type="text"><br>
+<label>Terms and Condition</label><br>
+<input type="radio" name="tnc" value="agree" checked>I agree
+<input type="radio" name="tnc" value="disagree"> I disagree <br>
+<button>complete Reservation</button>
+</div>
+</body>
+</html>
